@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Netra</title>
+    <item>
+      <title>Netra 0.1.0</title>
+      <pubDate>Tue, 03 Nov 2026 14:14:31 GMT</pubDate>
+      <sparkle:version>5</sparkle:version>
+      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[<ul>
+<li>첫 버전: 메뉴 막대에서 원격 화면 켜고 끄기, 접속 주소 복사 · QR, 지금 보는 기기 보기 · 끊기</li>
+<li>아이폰 · 아이패드 Safari에서 noVNC 1.7.0으로 이 맥 화면 보기 (tailscale serve 주소, 맥 계정 암호로 로그인)</li>
+<li>「홈 화면에 추가」하면 Netra 아이콘으로 열림</li>
+<li>준비 상태 확인: 화면 공유 · Tailscale serve · 로그인 시 실행</li>
+<li>설정: 머리 색 9가지 · 글씨 크기 · 화질 · 화면 맞춤 · 앱 안 업데이트</li>
+</ul>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.1.0.zip" length="2966556" type="application/octet-stream" sparkle:edSignature="dXpXd3I0rgMPt4mnpuWY2txozicSLmEXsuv18N7pwcS4YDShqEY2CENzHAKG0TKGP958zA/IahLBltPkQqgDAA=="/>
+    </item>
+  </channel>
+</rss>
