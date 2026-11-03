@@ -3,19 +3,18 @@
   <channel>
     <title>Netra</title>
     <item>
-      <title>Netra 0.1.0</title>
-      <pubDate>Tue, 03 Nov 2026 14:14:31 GMT</pubDate>
-      <sparkle:version>5</sparkle:version>
-      <sparkle:shortVersionString>0.1.0</sparkle:shortVersionString>
+      <title>Netra 0.2.0</title>
+      <pubDate>Tue, 03 Nov 2026 19:03:20 GMT</pubDate>
+      <sparkle:version>9</sparkle:version>
+      <sparkle:shortVersionString>0.2.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>첫 버전: 메뉴 막대에서 원격 화면 켜고 끄기, 접속 주소 복사 · QR, 지금 보는 기기 보기 · 끊기</li>
-<li>아이폰 · 아이패드 Safari에서 noVNC 1.7.0으로 이 맥 화면 보기 (tailscale serve 주소, 맥 계정 암호로 로그인)</li>
-<li>「홈 화면에 추가」하면 Netra 아이콘으로 열림</li>
-<li>준비 상태 확인: 화면 공유 · Tailscale serve · 로그인 시 실행</li>
-<li>설정: 머리 색 9가지 · 글씨 크기 · 화질 · 화면 맞춤 · 앱 안 업데이트</li>
+<li>아이폰 화면을 Netra로: 로그인 한 화면(맥 사용자 이름 · 암호, 사용자 이름 기억), 연결 중 · 끊김 화면, 왼쪽 막대 Netra 로고, 글은 모두 한국어</li>
+<li>설정은 보기만 · 화면 맞춤 · 화질(낮음 · 보통 · 높음) · 다시 연결 · 커서 점, 나머지는 「고급」 아래. 보조 키는 맥 키 ⌃ ⌥ ⌘</li>
+<li>암호가 틀리면 같은 암호로 다시 연결하지 않음(계정 잠김 방지)</li>
+<li>모니터 고르기: 아이폰 noVNC 왼쪽 제어 막대의 모니터 단추로 「전체」 · 「1 · 주 모니터」 · 「2 · …」 중 하나만 화면에 맞춰 보기. 고른 값은 그 기기에 기억됨</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.1.0.zip" length="2966556" type="application/octet-stream" sparkle:edSignature="dXpXd3I0rgMPt4mnpuWY2txozicSLmEXsuv18N7pwcS4YDShqEY2CENzHAKG0TKGP958zA/IahLBltPkQqgDAA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.0.zip" length="3004620" type="application/octet-stream" sparkle:edSignature="/H9mSVhNvahchIgQc1rMe0t5KVqcpTivVYdCd6kRvJ8hSC6LR41aYvshKfHcxAPa6IV40S0l/yRnTXu31nCCBA=="/>
     </item>
   </channel>
 </rss>
