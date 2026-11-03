@@ -3,15 +3,15 @@
   <channel>
     <title>Netra</title>
     <item>
-      <title>Netra 0.2.3</title>
-      <pubDate>Tue, 03 Nov 2026 20:42:44 GMT</pubDate>
-      <sparkle:version>23</sparkle:version>
-      <sparkle:shortVersionString>0.2.3</sparkle:shortVersionString>
+      <title>Netra 0.2.4</title>
+      <pubDate>Tue, 03 Nov 2026 20:49:07 GMT</pubDate>
+      <sparkle:version>25</sparkle:version>
+      <sparkle:shortVersionString>0.2.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>아이폰 Safari에서 화면을 확대하면 왼쪽 메뉴 탭이 보이는 영역 밖으로 나가 안 보이던 것: 확대해도 보이는 영역 가장자리에 원래 크기로 붙어 있음</li>
+<li>보조 키에 방향키 ← ↑ → ↓ 추가(esc 다음). ⌃ ⌥ ⌘ 를 켜 둔 채 누르면 함께 보냄</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.3.zip" length="3007080" type="application/octet-stream" sparkle:edSignature="hNvOgOp671TT9DzAYAW8nwfTtDM7enHtwhFeMMalugMX5yky0Y4Wl1ugavwJzEuDsGDeSzJCf2rsXFxe8Cn+Bg=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.4.zip" length="3010844" type="application/octet-stream" sparkle:edSignature="0AX724Z0GLaicJnZOZt3SZOlpM56ATupeEGLIYxrTpGSSxFB7zpVt2V2EbhV/RK7HTXNfE5p3NuW7nJ2Y23gDg=="/>
     </item>
   </channel>
 </rss>
