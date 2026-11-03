@@ -3,16 +3,16 @@
   <channel>
     <title>Netra</title>
     <item>
-      <title>Netra 0.2.1</title>
-      <pubDate>Tue, 03 Nov 2026 19:18:36 GMT</pubDate>
-      <sparkle:version>15</sparkle:version>
-      <sparkle:shortVersionString>0.2.1</sparkle:shortVersionString>
+      <title>Netra 0.2.2</title>
+      <pubDate>Tue, 03 Nov 2026 19:30:30 GMT</pubDate>
+      <sparkle:version>19</sparkle:version>
+      <sparkle:shortVersionString>0.2.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>로그인 화면 아래에 Netra 버전 표시</li>
-<li>모니터 고르기: 「1 · 주 모니터」를 고르면 옆 모니터 일부가 겹쳐 보이던 것 고침. 맥 화면 공유는 모니터마다 실제 픽셀 크기(더미 3840×2160 · MSI 5120×1440)로 붙여 보내는데, 포인트 기준으로 잘랐음</li>
+<li>아이폰에서 마우스 포인터가 안 보이던 것: 맥이 커서 모양을 보내지 않을 때 둥근 점을 기본으로 보임(설정 › 커서 없을 때 점 표시)</li>
+<li>설정 › 점 크기: 작게 · 보통 · 크게 (그 기기에 기억)</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.1.zip" length="3005690" type="application/octet-stream" sparkle:edSignature="0EH6uW+Nn9eDgxwvPMLdCekbAE5EK9MlKQLFIostMcidpm8bkyIYto0FyiriceZce6hDFy19pRy0RBWhmFuHCw=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.2.zip" length="3006514" type="application/octet-stream" sparkle:edSignature="aC/Zs+EZq+8bOEJS4XFjbdlneV7cNhiWQjST2HHx7b8t0xDmKu6OABLEZ/YmRoOXo4s3FEx7TzCs5J8/EWr0AQ=="/>
     </item>
   </channel>
 </rss>
