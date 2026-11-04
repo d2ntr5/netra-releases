@@ -3,19 +3,20 @@
   <channel>
     <title>Netra</title>
     <item>
-      <title>Netra 0.2.5</title>
-      <pubDate>Wed, 04 Nov 2026 00:39:31 GMT</pubDate>
-      <sparkle:version>29</sparkle:version>
-      <sparkle:shortVersionString>0.2.5</sparkle:shortVersionString>
+      <title>Netra 0.2.6</title>
+      <pubDate>Wed, 04 Nov 2026 00:57:10 GMT</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<ul>
-<li>트랙패드 모드(기본): 아이폰 화면을 맥북 트랙패드처럼 — 문질러 화살표를 옮기고 탭하면 그 자리를 클릭. 길게 눌러 끌기 · 두 손가락 탭 우클릭 · 두 손가락 스크롤. 맥이 커서 모양을 보내지 않아도 Netra가 화살표를 그림. 설정 › 터치 방식에서 「직접 누르기」로 되돌릴 수 있음</li>
-<li>확대 막대(오른쪽 아래): 맞춤 → 150 → 200 → 300 → 400%, ✋ 한 손가락으로 화면 옮기기, ⤢ 맞춤</li>
-<li>클립보드 「맥에 붙여넣기」: 맥 클립보드에 직접 넣고 ⌘V까지(한글 됨). 「맥 클립보드 가져오기」</li>
-<li>보조 키에 ⌃↑(Mission Control), 보조 키는 5개씩 두 줄</li>
-<li>왼쪽 막대 손잡이를 화면 위 끝 ~ 아래 끝 어디로나 옮김(전에는 막대 높이 안에서만). 자리는 그 기기에 기억</li>
+<li>손잡이를 막대 밖(위 · 아래)으로 옮기면 막대 폭만 한 청록 판이 드러나던 것: 튀어나온 탭만 보이게</li>
+<li>맥에 붙여넣기를 눌러도 커서 자리에 들어가지 않던 것: Apple 화면 공유는 ⌘을 Alt, ⌥을 Meta 키로 받는데 noVNC는 ⌘을 Super, ⌥을 Alt로 보냈음. 이제 맥 방식으로 바꿔 보냄 — 보조 키 ⌘ · ⌥, 붙여넣기 ⌘V, ⌘Q, 아이패드 하드웨어 키보드의 ⌘ · ⌥ 모두</li>
+<li>보조 키에 ⌘Q(앱 닫기). 세 번째 줄에 놓임</li>
+<li>확대 막대 위에 상하좌우 이동 단추(누를 때마다 보이는 폭 · 높이의 절반씩)</li>
+<li>확대하면 아이폰 화면 비율대로 잘라 빈 곳을 줄임</li>
+<li>아이폰 Safari에서 원격 화면 바깥 검은 곳을 문지르면 페이지가 스크롤되어 화면이 오르내리던 것 막음. 트랙패드는 검은 곳에서 문질러도 화살표가 움직임</li>
 </ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.5.zip" length="3034342" type="application/octet-stream" sparkle:edSignature="m8IuLJrhitqxrgTOJFZd3fDbPhMxnhbSQPcfWCFs3i0G/zvpp+0z/ldZfL6frTY39pu7CPaYpPenojGuuF2uAQ=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.6.zip" length="3036983" type="application/octet-stream" sparkle:edSignature="pPXgAB0oQ9uYU7o3Sf97VrpOqfNz1oTL4OOn28hQueRuqEtCgKbzMDD4nNVxpHOKr/xNiEwhruZdgZQgwH0KAA=="/>
     </item>
   </channel>
 </rss>
