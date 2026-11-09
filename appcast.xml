@@ -3,20 +3,105 @@
   <channel>
     <title>Netra</title>
     <item>
-      <title>Netra 0.2.6</title>
-      <pubDate>Wed, 04 Nov 2026 00:57:10 GMT</pubDate>
-      <sparkle:version>39</sparkle:version>
-      <sparkle:shortVersionString>0.2.6</sparkle:shortVersionString>
+      <title>Netra 0.2.8</title>
+      <pubDate>Mon, 09 Nov 2026 15:37:12 GMT</pubDate>
+      <sparkle:version>68</sparkle:version>
+      <sparkle:shortVersionString>0.2.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <description><![CDATA[<ul>
+      <description><![CDATA[<style>
+section h3 { margin: 0 0 4px; font-size: 1.05em; }
+section h3 small { font-weight: normal; color: gray; font-size: 0.8em; margin-left: 6px; }
+section .tag { font-size: 0.75em; color: #fff; background: #0A84FF; border-radius: 4px; padding: 0 5px; margin-left: 6px; }
+section ul { margin: 0 0 12px; padding-left: 18px; }
+section .cut { display: none; }
+section.sparkle-installed-version > :not(.cut) { display: none; }
+section.sparkle-installed-version .cut { display: block; color: gray; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
+section.sparkle-installed-version ~ section { display: none; }
+</style>
+<section data-sparkle-version="68"><h3>v0.2.8<span class="tag">설치할 버전</span><small>2026. 11. 10.</small></h3>
+<ul>
+<li>설정에 「업데이트」 탭: 지금 버전 · 자동으로 업데이트 확인 · 마지막 확인과 「업데이트 확인…」 · 「모든 버전 보기…」(모든 앱 공통 모양)</li>
+<li>업데이트 확인을 30분마다 · 켤 때 · 잠자기에서 깨어날 때. 자동으로 설치하지는 않음</li>
+<li>새 버전 · 업데이트 서버와 통신 문제는 팝업 톱니의 배지로 알림(새 버전 초록 「↓」, 2번 연속 통신 실패 빨강 「!」). 배지가 있을 때 톱니를 누르면 설정 › 업데이트가 열리고, 탭 이름 옆에도 같은 배지. 팝업 맨 위의 「새 버전」 띠 · 빨간 띠는 없앰. 메뉴 막대 아이콘 점은 그대로(새 버전 초록 · 문제 빨강)</li>
+<li>설정 › 업데이트 맨 위에 초록 상자 「새 버전 vX.Y.Z가 있습니다」 · 바뀐 점 몇 줄 · 「나중에」 · 「업데이트…」. 「나중에」 하면 그 버전은 배지 · 점을 다시 띄우지 않음(초록 상자는 남음). 통신 문제는 빨간 상자에 원인 · 확인 명령 · 자동 확인 끄기, 다시 통신되면 사라짐</li>
+<li>업데이트 창의 바뀐 점에 지금 버전보다 새 버전을 모두 버전별로 보여 줌</li>
+<li>여러 버전이 쌓였을 때 처음 「업데이트…」가 실패하던 것: 예전에 찾아 둔 옛 버전을 띄웠고 그 파일은 이미 지워져 있었음. 이제 누를 때마다 새로 확인</li>
+<li>정보 탭은 앱 소개만(아이콘 · 이름 · 버전 · 뜻 · 지원 환경). 저장된 값 초기화는 일반 탭 맨 아래로</li>
+<li>설정 창 새 모양(모든 앱 공통): 탭을 위쪽 한 줄로(왼쪽 탭 목록 없앰), 머리를 끌어 창을 옮길 수 있고 옮긴 자리를 기억. 창 높이는 연 탭 내용대로, 탭을 바꿔도 창 위 끝은 그 자리(아래 끝이 화면 밖으로 나가면 그만큼만 위로)</li>
+<li>글씨 크기 4단계(모든 앱 공통): 작게 · 보통(처음 값) · 크게 · 아주 크게. 글씨와 함께 여백 · 단추 · 팝업과 설정 창 너비도 커짐. ⌘= 크게 · ⌘- 작게 · ⌘0 보통(팝업 · 설정 창에서). 예전 소 · 중 · 대는 보통 · 크게 · 아주 크게로 옮김</li>
+<li>설정 창이 처음 열릴 때와 글씨 크기를 바꿀 때 내용 높이에 맞지 않아 아래가 잘리던 것</li>
+<li>글씨 표 통일(모든 앱 공통): 가장 작은 글씨 11pt, 자리별 크기 · 굵기를 모든 앱과 같게. 라이트 모드 상자 · 선은 시스템 색(흰 상자 + 구분선)</li>
+<li>머리 색 견본: 눈 그림 없이 9개 한 줄, 고른 것만 ✓. 팝업 안내 상자는 흰 바탕 + 왼쪽 색 줄</li>
+<li>머리 모양(맥 앱 공통): 팝업은 앱 아이콘 · 굵은 「Netra」 · 흐린 버전 · 둥근 톱니 단추 한 줄, 설정 창은 신호등 · 앱 아이콘 · 「Netra 설정」 한 줄 아래 탭 줄</li>
+<li>팝업 머리의 톱니를 버전 바로 오른쪽으로. 설정은 톱니(⌘,)로만 열고 팝업 맨 아래 「설정…」 줄은 없앰</li>
+<li>테마 색은 팝업 머리 · 설정 머리 · 스위치 · 주 단추 네 곳에 늘 들어감. 「사이드바 · 주 단추에도 같은 색」 스위치는 없앰</li>
+</ul>
+<p class="cut">v0.2.8 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>
+<section><h3>v0.2.7</h3>
+<ul>
+<li>손잡이를 옮기면 왼쪽 막대도 함께 옮겨짐(손잡이와 막대가 따로 떨어져 있던 것)</li>
+<li>맥에 붙여넣기: 「붙여넣었습니다」가 떠도 들어가지 않던 것. 맥 화면 공유가 어느 키를 ⌘으로 받는지 접속할 때 직접 재서 그 키로 ⌘V를 보냄(보조 키 ⌘ · ⌥ · ⌘Q도 같은 결과를 씀). 재지 못하면 글자를 하나씩 쳐 넣음(영문 · 숫자 · 기호)</li>
+</ul>
+<p class="cut">v0.2.7 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>
+<section data-sparkle-version="39"><h3>v0.2.6<small>2026. 11. 4.</small></h3>
+<ul>
 <li>손잡이를 막대 밖(위 · 아래)으로 옮기면 막대 폭만 한 청록 판이 드러나던 것: 튀어나온 탭만 보이게</li>
 <li>맥에 붙여넣기를 눌러도 커서 자리에 들어가지 않던 것: Apple 화면 공유는 ⌘을 Alt, ⌥을 Meta 키로 받는데 noVNC는 ⌘을 Super, ⌥을 Alt로 보냈음. 이제 맥 방식으로 바꿔 보냄 — 보조 키 ⌘ · ⌥, 붙여넣기 ⌘V, ⌘Q, 아이패드 하드웨어 키보드의 ⌘ · ⌥ 모두</li>
 <li>보조 키에 ⌘Q(앱 닫기). 세 번째 줄에 놓임</li>
 <li>확대 막대 위에 상하좌우 이동 단추(누를 때마다 보이는 폭 · 높이의 절반씩)</li>
 <li>확대하면 아이폰 화면 비율대로 잘라 빈 곳을 줄임</li>
 <li>아이폰 Safari에서 원격 화면 바깥 검은 곳을 문지르면 페이지가 스크롤되어 화면이 오르내리던 것 막음. 트랙패드는 검은 곳에서 문질러도 화살표가 움직임</li>
-</ul>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.6.zip" length="3036983" type="application/octet-stream" sparkle:edSignature="pPXgAB0oQ9uYU7o3Sf97VrpOqfNz1oTL4OOn28hQueRuqEtCgKbzMDD4nNVxpHOKr/xNiEwhruZdgZQgwH0KAA=="/>
+</ul>
+<p class="cut">v0.2.6 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>
+<section data-sparkle-version="29"><h3>v0.2.5<small>2026. 11. 4.</small></h3>
+<ul>
+<li>트랙패드 모드(기본): 아이폰 화면을 맥북 트랙패드처럼 — 문질러 화살표를 옮기고 탭하면 그 자리를 클릭. 길게 눌러 끌기 · 두 손가락 탭 우클릭 · 두 손가락 스크롤. 맥이 커서 모양을 보내지 않아도 Netra가 화살표를 그림. 설정 › 터치 방식에서 「직접 누르기」로 되돌릴 수 있음</li>
+<li>확대 막대(오른쪽 아래): 맞춤 → 150 → 200 → 300 → 400%, ✋ 한 손가락으로 화면 옮기기, ⤢ 맞춤</li>
+<li>클립보드 「맥에 붙여넣기」: 맥 클립보드에 직접 넣고 ⌘V까지(한글 됨). 「맥 클립보드 가져오기」</li>
+<li>보조 키에 ⌃↑(Mission Control), 보조 키는 5개씩 두 줄</li>
+<li>왼쪽 막대 손잡이를 화면 위 끝 ~ 아래 끝 어디로나 옮김(전에는 막대 높이 안에서만). 자리는 그 기기에 기억</li>
+</ul>
+<p class="cut">v0.2.5 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>
+<section data-sparkle-version="25"><h3>v0.2.4<small>2026. 11. 4.</small></h3>
+<ul>
+<li>보조 키에 방향키 ← ↑ → ↓ 추가(esc 다음). ⌃ ⌥ ⌘ 를 켜 둔 채 누르면 함께 보냄</li>
+</ul>
+<p class="cut">v0.2.4 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>
+<section data-sparkle-version="23"><h3>v0.2.3<small>2026. 11. 4.</small></h3>
+<ul>
+<li>아이폰 Safari에서 화면을 확대하면 왼쪽 메뉴 탭이 보이는 영역 밖으로 나가 안 보이던 것: 확대해도 보이는 영역 가장자리에 원래 크기로 붙어 있음</li>
+</ul>
+<p class="cut">v0.2.3 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>
+<section data-sparkle-version="19"><h3>v0.2.2<small>2026. 11. 4.</small></h3>
+<ul>
+<li>아이폰에서 마우스 포인터가 안 보이던 것: 맥이 커서 모양을 보내지 않을 때 둥근 점을 기본으로 보임(설정 › 커서 없을 때 점 표시)</li>
+<li>설정 › 점 크기: 작게 · 보통 · 크게 (그 기기에 기억)</li>
+</ul>
+<p class="cut">v0.2.2 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>
+<section data-sparkle-version="15"><h3>v0.2.1<small>2026. 11. 4.</small></h3>
+<ul>
+<li>로그인 화면 아래에 Netra 버전 표시</li>
+<li>모니터 고르기: 「1 · 주 모니터」를 고르면 옆 모니터 일부가 겹쳐 보이던 것 고침. 맥 화면 공유는 모니터마다 실제 픽셀 크기(더미 3840×2160 · MSI 5120×1440)로 붙여 보내는데, 포인트 기준으로 잘랐음</li>
+</ul>
+<p class="cut">v0.2.1 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>
+<section data-sparkle-version="9"><h3>v0.2.0<small>2026. 11. 4.</small></h3>
+<ul>
+<li>아이폰 화면을 Netra로: 로그인 한 화면(맥 사용자 이름 · 암호, 사용자 이름 기억), 연결 중 · 끊김 화면, 왼쪽 막대 Netra 로고, 글은 모두 한국어</li>
+<li>설정은 보기만 · 화면 맞춤 · 화질(낮음 · 보통 · 높음) · 다시 연결 · 커서 점, 나머지는 「고급」 아래. 보조 키는 맥 키 ⌃ ⌥ ⌘</li>
+<li>암호가 틀리면 같은 암호로 다시 연결하지 않음(계정 잠김 방지)</li>
+<li>모니터 고르기: 아이폰 noVNC 왼쪽 제어 막대의 모니터 단추로 「전체」 · 「1 · 주 모니터」 · 「2 · …」 중 하나만 화면에 맞춰 보기. 고른 값은 그 기기에 기억됨</li>
+</ul>
+<p class="cut">v0.2.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>
+<section data-sparkle-version="5"><h3>v0.1.0<small>2026. 11. 3.</small></h3>
+<ul>
+<li>첫 버전: 메뉴 막대에서 원격 화면 켜고 끄기, 접속 주소 복사 · QR, 지금 보는 기기 보기 · 끊기</li>
+<li>아이폰 · 아이패드 Safari에서 noVNC 1.7.0으로 이 맥 화면 보기 (tailscale serve 주소, 맥 계정 암호로 로그인)</li>
+<li>「홈 화면에 추가」하면 Netra 아이콘으로 열림</li>
+<li>준비 상태 확인: 화면 공유 · Tailscale serve · 로그인 시 실행</li>
+<li>설정: 머리 색 9가지 · 글씨 크기 · 화질 · 화면 맞춤 · 앱 안 업데이트</li>
+</ul>
+<p class="cut">v0.1.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>]]></description>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.8.zip" length="3171481" type="application/octet-stream" sparkle:edSignature="0wiu9RvXFuQ4b1cW4lbEK42QX1i8FtlMb3O+7Ew8QQpqwIkpQyalGWYIMRDmgiqFuqepcmdDOTIiG2OMi8poDg=="/>
     </item>
   </channel>
 </rss>
