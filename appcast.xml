@@ -3,10 +3,10 @@
   <channel>
     <title>Netra</title>
     <item>
-      <title>Netra 0.2.9</title>
-      <pubDate>Mon, 09 Nov 2026 15:58:20 GMT</pubDate>
-      <sparkle:version>70</sparkle:version>
-      <sparkle:shortVersionString>0.2.9</sparkle:shortVersionString>
+      <title>Netra 0.2.10</title>
+      <pubDate>Tue, 10 Nov 2026 22:40:35 GMT</pubDate>
+      <sparkle:version>95</sparkle:version>
+      <sparkle:shortVersionString>0.2.10</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <description><![CDATA[<style>
 section h3 { margin: 0 0 4px; font-size: 1.05em; }
@@ -18,7 +18,13 @@ section.sparkle-installed-version > :not(.cut) { display: none; }
 section.sparkle-installed-version .cut { display: block; color: gray; font-size: 0.9em; border-top: 1px solid rgba(128,128,128,.3); padding-top: 6px; }
 section.sparkle-installed-version ~ section { display: none; }
 </style>
-<section data-sparkle-version="70"><h3>v0.2.9<span class="tag">설치할 버전</span><small>2026. 11. 10.</small></h3>
+<section data-sparkle-version="95"><h3>v0.2.10<span class="tag">설치할 버전</span><small>2026. 11. 11.</small></h3>
+<ul>
+<li>맥을 다시 켠 뒤 팝업이 Tailscale이 정상인데도 「tailscale serve가 설정되지 않음」 · 「Tailscale 주소를 아직 모름」에 머물고 메뉴 막대 점이 빨간 채로 남던 문제 고침. Tailscale 확인이 어떤 경우에도 12초 안에 끝나고, 다음 확인(30초마다)에서 스스로 회복</li>
+<li>준비 상태가 바뀔 때와 Tailscale 확인이 실패할 때 이유를 맥 로그에 남김</li>
+</ul>
+<p class="cut">v0.2.10 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>
+<section data-sparkle-version="70"><h3>v0.2.9<small>2026. 11. 10.</small></h3>
 <ul>
 <li>설정 창이 지금 보고 있는 데스크탑 · 화면에 열림(예전엔 처음 연 데스크탑이나 다른 모니터에 열릴 수 있었음). 설정 창이 열린 동안 Dock에 아이콘이 보이고, 닫으면 사라짐</li>
 <li>글씨 크기 단추를 눌러 바꿀 때 설정 창 높이가 바로 맞게</li>
@@ -107,7 +113,7 @@ section.sparkle-installed-version ~ section { display: none; }
 <li>설정: 머리 색 9가지 · 글씨 크기 · 화질 · 화면 맞춤 · 앱 안 업데이트</li>
 </ul>
 <p class="cut">v0.1.0 (지금 버전) 이전 내용은 보여 주지 않습니다.</p></section>]]></description>
-      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.9.zip" length="3184395" type="application/octet-stream" sparkle:edSignature="mDGMU40flYMzfmQG4eazoluewpq1DcqLiSSJBLWuNVy6ZcJU6JwCcy9dDDr+ZByQrnQMOdiRKZmQYJFWaoq/DA=="/>
+      <enclosure url="https://raw.githubusercontent.com/d2ntr5/netra-releases/main/releases/Netra-0.2.10.zip" length="3220454" type="application/octet-stream" sparkle:edSignature="IUYwiUzg9gT8S9tfCA7u7Sq/lRQrU9RojVdNAP8RN04jGcvWzRhQo7MUreApLDHGbQUtssbD723e98f51WHODg=="/>
     </item>
   </channel>
 </rss>
